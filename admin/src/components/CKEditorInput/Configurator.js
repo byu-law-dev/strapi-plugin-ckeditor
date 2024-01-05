@@ -222,15 +222,17 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         '|',
         'heading',
         '|',
-        'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor',
+        // 'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor',
+        // '|',
+        'bold', 'italic', 'underline', /*'strikethrough', 'superscript', 'subscript', 'code',*/ 'removeFormat',
+        '|', // '-' is for line break, was here before
+        'link', 'strapiMediaLib', /*'mediaEmbed',*/ 'insertTable',
         '|',
-        'bold', 'italic', 'underline', 'strikethrough', 'superscript', 'subscript', 'code', 'removeFormat',
-        '-',
-        'link', 'strapiMediaLib', 'mediaEmbed', 'insertTable', 'horizontalLine', 'blockQuote', 'codeBlock', 'htmlEmbed', 'specialCharacters', 'highlight',
+        'horizontalLine', 'blockQuote', /*'codeBlock', 'htmlEmbed',*/ 'specialCharacters', /*'highlight',*/
         '|',
         'alignment',
         '|',
-        'bulletedList', 'numberedList', 'todoList', 'outdent', 'indent', 
+        'bulletedList', 'numberedList', /*'todoList',*/ 'outdent', 'indent',
       ],
       shouldNotGroupWhenFull: true
     },
@@ -273,7 +275,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         icon: 'large'
       } ],
       toolbar: [
-        'imageStyle:inline', 'imageStyle:block', 'imageStyle:side',
+        'imageStyle:inline', 'imageStyle:block', 'imageStyle:alignLeft', 'imageStyle:alignRight', // imageStyle:side
         '|',
         'toggleImageCaption', 'imageTextAlternative',
         '|',
