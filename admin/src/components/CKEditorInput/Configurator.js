@@ -13,7 +13,7 @@ import ckeditor5HtmlEmbedDll from "@ckeditor/ckeditor5-html-embed/build/html-emb
 import ckeditor5HorizontalLineDll from "@ckeditor/ckeditor5-horizontal-line/build/horizontal-line.js";
 import ckeditor5MarkdownDll from '@ckeditor/ckeditor5-markdown-gfm/build/markdown-gfm';
 import ckeditor5MediaEmbedDll from "@ckeditor/ckeditor5-media-embed/build/media-embed.js";
-import ckeditor5ImageDll from "@ckeditor/ckeditor5-image/build/image.js";
+import ckeditor5ImageDll from "https://github.com/byu-law-dev/ckeditor5-image.git";
 import ckeditor5IndentDll from "@ckeditor/ckeditor5-indent/build/indent.js";
 import ckeditor5LinkDll from "@ckeditor/ckeditor5-link/build/link.js";
 import ckeditor5ListDll from "@ckeditor/ckeditor5-list/build/list.js";
